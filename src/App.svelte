@@ -1,15 +1,24 @@
 <script>
-	import Header from './components/Header.svelte'
+	import Router from "svelte-spa-router";
+	import Home from './pages/home/Home.svelte';
+	import Temp from './pages/temp/Temp.svelte';
+
+
+	const routes = {
+		'/': Home,
+		'/add':Temp
+	}
+
 </script>
 
-<Header/>
-
-<main>
-	<h1>中心確認</h1>
-</main>
+<header>
+	<Router routes={routes}></Router>
+</header>
 
 <style>
-	main  {
+
+</style>
+	<!-- main  {
 		
 		text-align: center;
 		margin-left:200px;
@@ -20,4 +29,4 @@
 			max-width: none;
 		}
 	}
-</style>
+</style> -->

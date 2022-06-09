@@ -1,4 +1,7 @@
 <script>
+import { push } from "svelte-spa-router";
+
+
   
 </script>
 
@@ -14,10 +17,10 @@
   <div class="menu-list">
     <ul>
       <li><a href="/"><span class="material-icons">home</span> HOME</a></li>
-      <li><a href="/"><span class="material-icons">cloud</span> Coming Soon</a></li>
-      <li><a href="/"><span class="material-icons">cloud</span> Coming Soon</a></li>
-      <li><a href="/"><span class="material-icons">cloud</span> Coming Soon</a></li>
-      <li><a href="/"><span class="material-icons">cloud</span> Coming Soon</a></li>
+      <li><a on:click={()=>push('/add')} ><span class="material-icons">cloud</span> Coming Soon</a></li>
+      <li><a on:click={()=>push('/add')} ><span class="material-icons">cloud</span> Coming Soon</a></li>
+      <li><a on:click={()=>push('/add')} ><span class="material-icons">cloud</span> Coming Soon</a></li>
+      <li><a on:click={()=>push('/add')} ><span class="material-icons">cloud</span> Coming Soon</a></li>
     </ul>
   </div>
   <span class="material-icons menu-icon">menu</span>
