@@ -15,7 +15,8 @@
 	<Router routes={routes}></Router>
 </header>
 
-<style>
+
+<style global lang="postcss">
 
 </style>
 	<!-- main  {
