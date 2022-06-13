@@ -5,7 +5,7 @@
 </script>
 
 <Header/>
-<h1>やればできる</h1>
+<h1 class="text-green-700">やればできる</h1>
 
 <style>
     h1{

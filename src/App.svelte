@@ -2,11 +2,13 @@
 	import Router from "svelte-spa-router";
 	import Home from './pages/home/Home.svelte';
 	import Temp from './pages/temp/Temp.svelte';
+	import Random from './pages/random/Random.svelte';
 
 
 	const routes = {
 		'/': Home,
-		'/add':Temp
+		'/add':Temp,
+		'/random':Random
 	}
 
 </script>
@@ -17,7 +19,9 @@
 
 
 <style global lang="postcss">
-
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
 </style>
 	<!-- main  {
 		

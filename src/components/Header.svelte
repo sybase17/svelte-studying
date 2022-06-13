@@ -17,7 +17,7 @@ import { push } from "svelte-spa-router";
   <div class="menu-list">
     <ul>
       <li><a href="/"><span class="material-icons">home</span> HOME</a></li>
-      <li><a on:click={()=>push('/add')} ><span class="material-icons">cloud</span> Coming Soon</a></li>
+      <li><a on:click={()=>push('/random')} ><span class="material-icons">cached</span> Random</a></li>
       <li><a on:click={()=>push('/add')} ><span class="material-icons">cloud</span> Coming Soon</a></li>
       <li><a on:click={()=>push('/add')} ><span class="material-icons">cloud</span> Coming Soon</a></li>
       <li><a on:click={()=>push('/add')} ><span class="material-icons">cloud</span> Coming Soon</a></li>
