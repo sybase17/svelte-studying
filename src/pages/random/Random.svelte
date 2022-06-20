@@ -71,7 +71,7 @@
 	</div>
 
     <div id ="mask" class:hidden={ismodal} class="fixed inset-0 bg-black z-10 bg-opacity-40" ></div>
-	<section id="modal"  class="bg-white text-black w-96 px-10 py-5 rounded absolute top-64 right-0 left-52 mx-auto my-0 z-20 ease-in-out" class:hidden={ismodal} >
+	<section id="modal"  class="bg-white text-black w-96 px-10 py-5 rounded absolute top-64 right-0 left-52 mx-auto my-0 z-20" class:hidden={ismodal} >
 		<p>今日の司会者は{star}さんです</p>
 		<button class="bg-gray-400 py-2 px-4 text-white rounded shadow mt-4" on:click={close}>閉じる</button>
 	</section>
@@ -84,9 +84,5 @@
 
 
 <style>
-
-    #modal.hidden {
-		transform: translate(0 , -500px);
-	}
 
 </style>
